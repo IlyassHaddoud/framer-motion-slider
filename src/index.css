@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  padding: 40px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel {
+  padding: 10px;
+  max-width: 50rem;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.inner-carousel {
+  display: flex;
+}
+.item {
+  min-height: 20rem;
+  min-width: 20rem;
+  padding: 20px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-radius: 20px;
+}
